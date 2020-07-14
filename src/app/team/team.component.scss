@@ -1,0 +1,101 @@
+.row {
+    width: 100vw;
+}
+.topRow {
+    display: inline-block;
+}
+.teamCard {
+    width: 70vw;
+    margin: 25px auto;
+    display: flex;
+    margin: 20px 50px;
+    padding: 15px 5px;
+    font-size: 0.9em;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #f6f2f2a7 74%);
+    border-radius: 15px;
+
+    &.right {
+        float: right;
+    }
+
+    &.min {
+        width: 23vw;
+    }
+}
+
+.vignette {
+    position: relative;
+    height: 350px;
+    width: 250px;
+    display: block;
+    background-size: cover;
+
+    &.charly {
+        background-image: url('../../assets/team/charly.jpg');
+    }
+
+    &.christophe {
+        background-image: url('../../assets/team/christophe.jpg');
+    }
+  }
+
+.vignette:after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    box-shadow: inset 0px 0px 50px #f6f2f2a7;
+  }
+
+.teamText {
+    width: 60%;
+
+    &.left {
+        margin-left: 30px;
+    }
+
+    &.right {
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+}
+
+.teamText h5 {
+    margin-left: 30px;
+}
+
+.teamText p {
+    margin: 0 30px;
+}
+
+
+$size: 12px;
+$spread: 12px;
+$trans: cubic-bezier(.9,0,.1,1);
+
+#hamburger {
+  position: relative;
+  top: 10%; left: 5%;
+  transform: translate(-50%, -50%);
+  height: 36px;
+  
+  & > * {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: $size;
+    height: $size;
+    border-radius: calc(#{$size} / 2);
+    border: 1px solid #191919;
+  }
+  .topleft { left: calc(50% - #{$spread}); top: calc(50% - #{$spread}); transform: translate(-50%,-50%) rotate(45deg); }
+  .topright { left: calc(50% + #{$spread}); top: calc(50% - #{$spread}); transform: translate(-50%,-50%) rotate(45deg); }
+  .bottomright { left: calc(50% + #{$spread}); top: calc(50% + #{$spread}); transform: translate(-50%,-50%) rotate(-45deg); }
+  .bottomleft { left: calc(50% - #{$spread}); top: calc(50% + #{$spread}); transform: translate(-50%,-50%) rotate(-45deg); }
+}
+
+#teamList {
+    margin-top: 50px;
+    padding-left: 2.5%;
+}

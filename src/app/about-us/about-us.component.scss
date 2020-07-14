@@ -1,0 +1,113 @@
+.row {
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    margin-top: 25px;
+}
+
+#textOverlay {
+    background-color: lightgrey;
+}
+
+.processImage {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.testimonials {
+    padding-top: 20px;
+    background-color: #f8f9fa;
+}
+
+.testimonials .col-3 {
+    margin: 20px 50px;
+    padding: 15px;
+    font-size: 0.9em;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #f6f2f2a7 74%);
+    border-radius: 15px;
+    height: 100%;
+}
+.sourceName {
+    text-align: right;
+    font-style: italic;
+    color: #6c757d;
+    font-size: 0.8em;;
+}
+
+// .socialIcons {
+//     display: inline-block;
+//     width: 60px;
+//     border: 1px solid black;
+// }
+// .icons {
+//     margin: 0 3px;
+// }
+
+
+ul {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  ul li a {
+    position: relative;
+    width:60px;
+    height:60px;
+    display:block;
+    text-align:center;
+    margin:0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: .5s;
+  }
+  
+  ul li a:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+  
+  ul li a .fa {
+    width: 100%;
+    height:100%;
+    display:block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size:24px;
+    color: #262626;
+    transition: .5s;
+  }
+  
+  ul li:nth-child(1) a:hover .fa {
+    color: #3b5998;
+  }
+  
+  ul li:nth-child(2) a:hover .fa {
+    color: #00aced;
+  }
+  
+  ul li:nth-child(3) a:hover .fa {
+    color: #dd4b39;
+  }
+  
+  ul li:nth-child(4) a:hover .fa {
+    color: #007bb6;
+  }
+  
+  ul li:nth-child(5) a:hover .fa {
+    color: #e4405f;
+  }

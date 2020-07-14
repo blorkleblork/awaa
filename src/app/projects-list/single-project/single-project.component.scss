@@ -1,0 +1,21 @@
+.project {
+    padding: 0 2.5vw;
+}
+
+.projectsMenu {
+    margin: auto;
+    text-align: center;
+    z-index: 1000;
+}
+
+.projectsMenu a{
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+.projectsMenu a:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.projectsThumbnail {
+    margin: 2em 0;
+}
+

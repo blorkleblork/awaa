@@ -1,0 +1,97 @@
+.row {
+    padding: 2.5vw;
+}
+.pubCard {
+    display: block;
+    padding-top: 2em;
+    margin: 20px 3vw;
+    padding: 15px;
+    font-size: 0.9em;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #f6f2f2a7 74%);
+    border-radius: 15px;
+    height: 50vh;
+}
+.textFrame{
+    text-align: center;
+    width: 100%;
+    height: 2em;
+    display: inline;
+}
+
+.textFrame h3 {
+    margin: auto;
+    font-size: 1.25vw;
+}
+
+.textFrame h4 {
+  margin-top: 5px;
+  font-size: 1vw;
+
+}
+
+.carouselFrame {
+    margin-top: 0.5vh;
+    height: 80%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+  
+.dropdownContent {
+  display: none;
+  margin-top: -0.5em;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.dropdownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  z-index: 1;
+  border: 1px solid #f1f1f1;
+  border-radius: 25px;
+}
+
+.dropdownContent a:hover {
+  border: 1px solid rgba(149,165,166,0.5);
+  border-radius: 25px;
+  animation: linkHover 0.5s;
+}
+
+@keyframes linkHover {
+  from {border-color: #f8f9fa;}
+  to {border-color: rgba(149,165,166,0.5);}
+}
+  
+.dropdown:hover .dropdownContent {
+  display: block;
+  animation: fadeIn 0.5s;
+}
+  
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+  
+.moreMenu {
+  margin: 0.1em 1em;
+  position: absolute;
+  z-index: 1;
+}
+
+.moreContent {
+  width: 23px;
+  height: 2px;
+  opacity: 0.5;
+  background-color: black;
+  margin: 6px 0;
+}

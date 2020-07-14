@@ -1,0 +1,49 @@
+
+<nav class="navbar navbar-expand navbar-light upNav">
+  <a class="navbar-brand" routerLink="homepage">AWAA</a>
+  <button class="btn btn-danger" 
+          (click)="onSignOut()"
+          style="cursor:pointer"
+          *ngIf="isAuth">Déconnexion
+  </button>
+</nav>
+<div class="divider"></div>
+<nav class="navbar navbar-expand navbar-light lowNav">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="navbar-nav">
+        <a class="nav-link" routerLink="homepage">Home</a>
+        <a class="nav-link" routerLink="projects">Projects</a>
+        <a class="nav-link" routerLink="team">Team</a>
+        <a class="nav-link" routerLink="publications">Publications</a>
+        <a class="nav-link" routerLink="contact">Contact</a>
+      </div>
+    </div>
+
+</nav>
+<div class="divider"></div>
+
+
+
+
+
+
+<!-- 
+<div class="headerNav">
+  <nav class="navbar navbar-expand sticky-top navbar-light">
+    <ul style="display: inline-block;">
+      <li><a routerLink="homepage">Home</a></li>
+      <li><a routerLink="projects">Projects</a></li>
+      <li><a routerLink="about-us">About us</a></li>
+    </ul>
+    <a class="navbar-brand" routerLink="homepage"><h1>AWAA</h1></a>
+    
+</nav>
+</div> -->
+  <!-- <div class="nav-menu">
+
+  </div> -->
+
+
+
+
+
