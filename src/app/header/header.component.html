@@ -1,5 +1,4 @@
-
-<nav class="navbar navbar-expand navbar-light upNav">
+<nav class="navbar navbar-expand-md navbar-light upNav">
   <a class="navbar-brand" routerLink="homepage">AWAA</a>
   <button class="btn btn-danger" 
           (click)="onSignOut()"
@@ -8,42 +7,22 @@
   </button>
 </nav>
 <div class="divider"></div>
-<nav class="navbar navbar-expand navbar-light lowNav">
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <div class="navbar-nav">
-        <a class="nav-link" routerLink="homepage">Home</a>
-        <a class="nav-link" routerLink="projects">Projects</a>
-        <a class="nav-link" routerLink="team">Team</a>
-        <a class="nav-link" routerLink="publications">Publications</a>
-        <a class="nav-link" routerLink="contact">Contact</a>
-      </div>
+<nav class="navbar navbar-expand-md navbar-light lowNav">
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+     data-target="#navbarSmallViewport" aria-controls="navbarSmallViewport"
+     aria-expanded="false" aria-label="Toggle navigation"
+     (click)="toggleCollapsed()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarSmallViewport" [ngClass]="{'collapse': collapsed, 'navbar-collapse': true}">
+      <div class="navbar-nav"> 
+        <a class="nav-link" routerLink="homepage" (click)="collapseBack()">Home</a>
+        <a class="nav-link" routerLink="projects" (click)="collapseBack()">Projects</a>
+        <a class="nav-link" routerLink="team" (click)="collapseBack()">Team</a>
+        <a class="nav-link" routerLink="publications" (click)="collapseBack()">Publications</a>
+        <a class="nav-link" routerLink="contact" (click)="collapseBack()">Contact</a>
+      </div> 
     </div>
 
 </nav>
 <div class="divider"></div>
-
-
-
-
-
-
-<!-- 
-<div class="headerNav">
-  <nav class="navbar navbar-expand sticky-top navbar-light">
-    <ul style="display: inline-block;">
-      <li><a routerLink="homepage">Home</a></li>
-      <li><a routerLink="projects">Projects</a></li>
-      <li><a routerLink="about-us">About us</a></li>
-    </ul>
-    <a class="navbar-brand" routerLink="homepage"><h1>AWAA</h1></a>
-    
-</nav>
-</div> -->
-  <!-- <div class="nav-menu">
-
-  </div> -->
-
-
-
-
-

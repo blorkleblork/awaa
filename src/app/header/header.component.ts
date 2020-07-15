@@ -10,6 +10,7 @@ import * as firebase from 'firebase';
 export class HeaderComponent implements OnInit {
 
   isAuth: boolean;
+  collapsed = true;
 
   constructor(private authService: AuthService) { }
 
@@ -27,6 +28,14 @@ export class HeaderComponent implements OnInit {
 
   onSignOut() {
     this.authService.signOutUser();
+  }
+ 
+  toggleCollapsed(): void {
+    this.collapsed = !this.collapsed;
+  }
+
+  collapseBack () {
+    this.collapsed = true;
   }
 
 }

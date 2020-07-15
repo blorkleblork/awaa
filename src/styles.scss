@@ -8,6 +8,10 @@
   width: 0px;
 }
 
+html {
+  overflow-x: clip;
+}
+
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';

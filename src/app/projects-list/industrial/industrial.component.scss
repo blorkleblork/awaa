@@ -1,8 +1,15 @@
+.projectsList {
+    padding: 0 2.5vw;
+}
+
+.navbar-nav>a {
+    font-size: 2vw;
+    transform: translate(0%, 40%);
+}
+
 .projectsMenu {
     margin: auto;
-    margin-bottom: -3em !important;
     text-align: center;
-    z-index: 1000;
     z-index: 1000;
 }
 
@@ -13,10 +20,6 @@
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 }
 
-.projectsList {
-    padding: 0 2.5vw;
-}
-
 .projectsThumbnail {
     position: relative;
     margin: 4vw 0;
@@ -24,7 +27,6 @@
 }
 .thumbnailText {
     margin-bottom: 1vw;
-    // padding-left: 10%;
     float: right;
     position: absolute;
     height: 2.5vw;
@@ -33,7 +35,7 @@
  .thumbnailText h5 {
     font-size: 1.25vw;
     margin-top: 0.5em;
-    // background-color: rgba(255, 255, 255);
+    width: 25vw;
  }
  
  .projectsThumbnail:hover img {

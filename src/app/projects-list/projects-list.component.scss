@@ -1,6 +1,9 @@
 .projectsList {
     padding: 0 2.5vw;
-    margin-top: -3em;
+}
+
+.navbar-nav>a {
+    font-size: 2vw;
 }
 
 .projectsMenu {
@@ -53,7 +56,7 @@
 }
 
 @keyframes openProjects {
-    to { transform: translate(0%, 0%); opacity: 1;}
+    to { transform: translate(0%, 40%); opacity: 1;}
 }
 
 .projectsThumbnail {
@@ -71,6 +74,7 @@
  .thumbnailText h5 {
     font-size: 1.25vw;
     margin-top: 0.5em;
+    width: 25vw;
  }
  
  .projectsThumbnail:hover img {

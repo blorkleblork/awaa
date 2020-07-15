@@ -1,20 +1,32 @@
 .divider {
+  left: 0;
+  right: 0;
   margin: auto;
   width : 95vw;
   border: 1px solid #95a5a6;
+  position: absolute;
+  z-index: 2000;
 }
 
 .upNav a {
-  font-size: 3.5vw;
+  font-size: 30px;
   margin: auto;
 }
 
 .lowNav {
+  padding: auto;
   height: 58px;
+  font-size: 20px;
 }
 
 .navbar-nav {
+  left: 0;
+  right: 0;
   margin: auto;
+  width: max-content;
+  background-color: #f8f9fa;
+  position: relative;
+  z-index: 1500;
 }
 
 .navbar-nav a {
