@@ -34,7 +34,7 @@ export class HeaderComponent implements OnInit {
     this.collapsed = !this.collapsed;
   }
 
-  collapseBack () {
+  collapseBack (): void {
     this.collapsed = true;
   }
 

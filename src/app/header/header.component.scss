@@ -24,9 +24,10 @@
   right: 0;
   margin: auto;
   width: max-content;
-  // background-color: #f8f9fa;
   position: relative;
   z-index: 1500;
+  background-color: #f8f9fa;
+  transform: translate(0%, -12%);
 }
 
 .navbar-nav a {
