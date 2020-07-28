@@ -15,6 +15,7 @@ import { EducationalComponent } from './projects-list/educational/educational.co
 import { IndustrialComponent } from './projects-list/industrial/industrial.component';
 import { OfficeComponent } from './projects-list/office/office.component';
 import { ResidentialComponent } from './projects-list/residential/residential.component';
+import { VideoComponent } from './video/video.component';
 
 
 const routes: Routes = [
@@ -28,6 +29,7 @@ const routes: Routes = [
   {path: 'projects/industrial', component: IndustrialComponent},
   {path: 'projects/office', component: OfficeComponent},
   {path: 'projects/residential', component: ResidentialComponent},
+  {path: 'video', component: VideoComponent},
   {path: 'contact', component: AboutUsComponent},
   {path: 'team', component: TeamComponent},
   {path: 'publications', component: PublicationsComponent},

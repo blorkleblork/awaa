@@ -27,6 +27,7 @@ import { IndustrialComponent } from './projects-list/industrial/industrial.compo
 import { ResidentialComponent } from './projects-list/residential/residential.component';
 import { CommercialComponent } from './projects-list/commercial/commercial.component';
 import { OfficeComponent } from './projects-list/office/office.component';
+import { VideoComponent } from './video/video.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { OfficeComponent } from './projects-list/office/office.component';
     ResidentialComponent,
     CommercialComponent,
     OfficeComponent,
+    VideoComponent,
   ],
   imports: [
     BrowserModule,
