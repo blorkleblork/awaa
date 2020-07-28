@@ -16,6 +16,8 @@ import { IndustrialComponent } from './projects-list/industrial/industrial.compo
 import { OfficeComponent } from './projects-list/office/office.component';
 import { ResidentialComponent } from './projects-list/residential/residential.component';
 import { VideoComponent } from './video/video.component';
+import { VideoWideComponent } from './video/video-wide/video-wide.component';
+import { VideoFullComponent } from './video/video-full/video-full.component';
 
 
 const routes: Routes = [
@@ -30,6 +32,8 @@ const routes: Routes = [
   {path: 'projects/office', component: OfficeComponent},
   {path: 'projects/residential', component: ResidentialComponent},
   {path: 'video', component: VideoComponent},
+  {path: 'video/wide', component: VideoWideComponent},
+  {path: 'video/full', component: VideoFullComponent},
   {path: 'contact', component: AboutUsComponent},
   {path: 'team', component: TeamComponent},
   {path: 'publications', component: PublicationsComponent},

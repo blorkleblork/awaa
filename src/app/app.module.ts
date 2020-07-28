@@ -28,6 +28,8 @@ import { ResidentialComponent } from './projects-list/residential/residential.co
 import { CommercialComponent } from './projects-list/commercial/commercial.component';
 import { OfficeComponent } from './projects-list/office/office.component';
 import { VideoComponent } from './video/video.component';
+import { VideoWideComponent } from './video/video-wide/video-wide.component';
+import { VideoFullComponent } from './video/video-full/video-full.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +52,8 @@ import { VideoComponent } from './video/video.component';
     CommercialComponent,
     OfficeComponent,
     VideoComponent,
+    VideoWideComponent,
+    VideoFullComponent,
   ],
   imports: [
     BrowserModule,
